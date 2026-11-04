@@ -1,0 +1,8 @@
+Jacobot
+Copyright 2026 Lucca Bonim
+
+This product includes software developed by the Jacobot contributors.
+
+Third-party components bundled with the macOS client keep their own licenses,
+which are included next to the files in clients/ui/Sources/JacoDesignSystem/Resources
+(Inter and JetBrains Mono: SIL Open Font License; Lucide icons: ISC License, with some icons under the MIT License).
