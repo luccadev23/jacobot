@@ -1,0 +1,14 @@
+{
+  "name": "@jacobot/protocol",
+  "version": "0.1.0",
+  "description": "The versioned contract between Jacobot clients and the backend: commands, events and strict parsers.",
+  "private": true,
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "test": "node --test tests/"
+  }
+}

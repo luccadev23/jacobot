@@ -12,9 +12,9 @@ Each important subfolder has its own `AGENTS.md` with local rules; the one close
 | `gateway` | client connections, auth, streaming | placeholder |
 | `host` | Bots, conversations, routines, persistent state | placeholder |
 | `sandbox` | isolated environment where each Bot runs | placeholder |
-| `protocol` | versioned contract between clients and backend | placeholder |
+| `protocol` | versioned contract between clients and backend: commands, events and strict parsers (v1), zero dependencies | package, own `AGENTS.md` |
 
-Placeholder folders only hold a `.gitkeep`. Do not add code, tooling or an `AGENTS.md` to them until their design is agreed.
+Placeholder folders only hold a `.gitkeep`. Do not add code, tooling or an `AGENTS.md` to them until their design is agreed. `protocol` is the first one whose design is agreed.
 
 ## Architecture
 
@@ -47,5 +47,6 @@ Client ──protocol──▶ Gateway ──▶ Host ──▶ Harness ──�
 | To… | See |
 | --- | --- |
 | Run or change the macOS client | `clients/ui/AGENTS.md` |
+| Use or change the protocol | `protocol/AGENTS.md`, `protocol/README.md` |
 | Project overview and quick start | `README.md` |
 | Third-party licenses | `NOTICE` |

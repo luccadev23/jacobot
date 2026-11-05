@@ -30,7 +30,7 @@ clients/
 gateway/         client connections, authentication, streaming        (planned)
 host/            Bots, conversations, routines and persistent state   (planned)
 sandbox/         isolated environment where each Bot runs             (planned)
-protocol/        versioned contract between clients and backend       (planned)
+protocol/        versioned contract between clients and backend       (v1, zero dependencies)
 ```
 
 Folders marked as planned exist as placeholders and have no code yet.
